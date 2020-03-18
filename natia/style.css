@@ -1,0 +1,118 @@
+
+@media only screen and (max-width: 320px) {
+    v .b1, .b2 {
+       background: rgba(104, 207, 214, 0.247);
+       width: 100%;
+       text-align: center;
+       overflow: auto;
+       margin: 0;
+       padding: 0;
+   
+       
+        }
+     }
+     @media only screen and (min-width: 375px) {
+       .b1, .b2 {background: rgb(151, 209, 151);
+         width: 100%;
+         text-align: center;
+         overflow: auto;
+         margin: 0;
+         padding: 0;
+          }
+        
+       }
+       @media only screen and (max-width: 450px) {
+         .b1, .b2 {background: rgb(151, 209, 151);
+           width: 100%;
+           text-align: center;
+           overflow: auto;
+           margin: 0;
+           padding: 0
+         }
+       
+     }
+     
+   
+   @media only screen and (max-width: 600px) {
+       .b1, .b2 {background: rgba(104, 207, 214, 0.247);
+         width: 100%;
+         box-sizing: border-box;
+         overflow: auto;
+       }
+       
+     }
+     
+    
+     @media only screen and (min-width: 600px) {
+       .b1, .b2 {background: rgb(151, 209, 151);
+         width: 100%;
+         box-sizing: border-box;
+       }
+       
+     }
+     
+     
+     @media only screen and (min-width: 768px) {
+       .b1, b2 {background: rgba(164, 164, 226, 0.308);
+         width: 100%;
+       }
+       
+       }
+     } 
+     
+   
+     @media only screen and (min-width: 992px) {
+       .b1, .b2 {
+         width: 50%;
+         font-size: 25px;
+         
+       }
+   
+     } 
+     
+     
+     @media only screen and (min-width: 1200px) {
+       .b1, .b2 {
+         width: 50%;
+         font-size: 30px;
+         text-align: center;
+         
+        
+         }
+       }
+     }
+    
+   
+     * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   
+   
+   h1,
+   h2 {
+       text-align: center;
+       padding-top: 80px;
+       padding-bottom: 80px;
+       text-decoration: underline;
+   }
+   
+   
+   main {
+     font-size: 18px;
+     line-height: 30px;
+     text-align: justify;
+     
+   }
+   
+   .b1 {
+       height: 400px;
+       float: left;
+       padding: 30px
+   }
+   .b2 {
+     height: 400px;
+     float: right;
+     padding: 30px
+   }
