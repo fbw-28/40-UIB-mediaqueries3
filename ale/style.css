@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body{
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        color: red;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    body {
+        color: orangered;
+        font-family: fantasy;
+        font-weight: bold;
+        background-color: orchid;
+    }
+    ol {
+        padding: 10px;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: sienna;
+        background-color: salmon;
+    }
+
+    ol li::first-letter {
+        color: springgreen;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    
+}
+
+
+
