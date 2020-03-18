@@ -1,0 +1,44 @@
+
+
+li {
+    margin: 10px;
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: pink;
+        color: deeppink;
+        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        background-color: rgb(241, 241, 134);
+        color: brown;
+        font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 30px;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    body {
+        background-color: rgb(131, 171, 187);
+        color: rgb(27, 27, 116);
+        font-size: 36px;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 40px;
+        padding: 30px;
+    }
+    span {
+        color: red;
+        font-style: italic; 
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}
